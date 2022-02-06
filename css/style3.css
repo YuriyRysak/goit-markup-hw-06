@@ -1,0 +1,62 @@
+/* ОСНОВНЫЕ ЦВЕТА 
+                #212121
+                #2196F3
+                #757575
+                #000000
+                #ECECEC
+                #FFFFFF
+  footer background: #2F303A 
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25) */
+:root {
+    --primary-text-color: rgba (0, 0, 0, 0.25);
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primery-whitte-color:#ffffff;
+    --footer-bg-color:#2F303A;
+}
+body {
+    background-color:var(--primery-whitte-color);
+    color:var(--primary-text-color)
+    ;
+} 
+.site-nav.link{
+    color: var(--title-text-color);
+
+}
+.site-nav.link:hover,
+.site-nav.link:focus{
+   color: var(--accent-color); 
+}
+.site-nav.link.current {
+    color: var(--title-text-color);
+}
+.link {
+
+}
+
+.list {
+    list-style: none;
+}
+/* site nav*
+
+/* section */
+.section-title {
+    color: #212121;
+}
+/* Our team*/
+
+/* Botton */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primery-whitte-color);
+}
+.button.primary {
+    color: var(--primery-whitte-color);
+    background-color: var(--footer-bg-color);
+.button.seconadary :hover     
+
+}
+button.seconadary {
+    color: var(--primery-whitte-color);
+    background-color: var(--accent-color);
+}
