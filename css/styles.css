@@ -533,6 +533,11 @@ margin-bottom: 20px;
    .name-social-item +.name-social-item {
      margin-left: 10px;
    }
+   /* Подписка */
+   .subscription {
+     margin-left: 93px;
+   }
+  
 
   /* Buttons */          
   .button {
@@ -705,6 +710,40 @@ cursor: pointer;
   transition: transform 300ms linear;
 
 }
+/* Подписка */
+.subscription-type {
+  width: 200px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 29px;
+  padding-top: 10px;
+  padding-right: 28px;
+  padding-bottom: 10px;
+}
+.subscription-text {
+ 
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+margin-right: 10px;
+color: #FFFFFF;
+}
+
+
+
+.icon-icon-send  {
+ fill: #FFFFFF;
+}
+
 /* Модалка */
   .backdrop {
     position: fixed;
@@ -760,8 +799,8 @@ cursor: pointer;
   }
   .icon {
   display: inline-block;
-  width: 2em;
-  height: 2em;
+  width: 1em;
+  height: 1em;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
