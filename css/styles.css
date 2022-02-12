@@ -953,9 +953,11 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 display: flex;
+justify-content: center;
 align-items: center;
 margin-bottom: 30px;
 color: #757575;
+
 }
 .modal-check-text::before{
   content:"";
@@ -977,7 +979,7 @@ letter-spacing: 0.03em;
 text-decoration-line: underline;
 margin-left: 5px;
 
-color: #2196F3;
+color: #2196F3; 
 
 }
 .modal-check:checked + .modal-check-text::before {
@@ -1009,7 +1011,9 @@ letter-spacing: 0.06em;
 
 color: #FFFFFF;
 }
+
 .position-text {
+ 
   text-align: center;
 } 
 
