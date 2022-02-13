@@ -725,6 +725,7 @@ border-radius: 4px;
 background-color: transparent;
 padding-left: 16px;
 cursor: pointer;
+color: #ffffff;
 } 
 .online-modal-input{
 font-family: Roboto;
@@ -741,17 +742,19 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .subscription-type {
-  width: 200px;
-  background: #2196F3;
+  min-width: 200px;
+  height: 50px;
+  background-color: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   display: inline-flex;
   align-items: center;
   padding-left: 29px;
-  padding-top: 10px;
+  padding-top: auto;
   padding-right: 28px;
-  padding-bottom: 10px;
+  padding-bottom:auto;
   cursor: pointer;
+  border-color: transparent
 }
 .subscription-type{
   margin-left: 12px;
@@ -896,7 +899,7 @@ font-size: 12px;
 line-height: 1.66;
 letter-spacing: 0.01em;
 color: #757575;
-margin-bottom: 4px;
+
 display: block;
 }
 .modal-text{
@@ -921,7 +924,7 @@ outline: none;
 }
 .modal-icon{
   position: absolute;
-  left: 5px ;
+  left: 12px ;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -988,14 +991,17 @@ color: #2196F3;
 }
 .button-send{
 width: 200px;
+height: 50px;
 background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
 border-radius: 4px;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top:auto;
+padding-bottom:auto;
 padding-left: 56px;
 padding-right:55px;
 cursor: pointer;
+border-color: transparent;
+
 
 }
 .button-send-text{
