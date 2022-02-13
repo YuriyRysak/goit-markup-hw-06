@@ -948,6 +948,7 @@ outline: none;
   padding-top: 12px;  
   margin-bottom: 20px;
 }
+
 .modal-check-text {
 font-family: Roboto;
 font-style: normal;
@@ -962,36 +963,44 @@ margin-bottom: 30px;
 color: #757575;
 
 }
-.modal-check-text::before{
-  content:"";
+.modal-check-text .vector {
   width: 16px;
   height: 15px;
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 7px;
 }
-
-.contract-condition-text {
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-text-decoration-line: underline;
-margin-left: 5px;
-
-color: #2196F3; 
+.modal-check-icon {
+  fill: transparent;
+  display: none;
 
 }
-.modal-check:checked + .modal-check-text::before {
+.modal-check:checked + .modal-check-text > .vector {
+  background-color: var(--accent-color);
+  border: none;
+}
+.modal-check:checked + .modal-check-text  svg {
+fill: #ffffff;
+display: block;
+
+}
+
+
+
+
+/* .modal-check:checked + .modal-check-text::before {
   background-color: var(--accent-color);
   background-image: url(/images/Vector.svg) ;
   background-repeat: no-repeat;
   background-position: center;
   border: none;
-}
+} */
+
+
 .button-send{
 width: 200px;
 height: 50px;
@@ -1006,6 +1015,19 @@ cursor: pointer;
 border-color: transparent;
 
 
+
+}
+.contract-condition-text {
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+margin-left: 5px;
+
+color: #2196F3; 
 }
 .button-send-text{
 font-family: Roboto;
