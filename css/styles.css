@@ -986,7 +986,10 @@ color: #2196F3;
 
 }
 .modal-check:checked + .modal-check-text::before {
-  background-image: url(/SVG/icon-check.svg) ;
+  background-color: var(--accent-color);
+  background-image: url(/images/Vector.svg) ;
+  background-repeat: no-repeat;
+  background-position: center;
   border: none;
 }
 .button-send{
