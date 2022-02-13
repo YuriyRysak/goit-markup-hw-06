@@ -983,7 +983,7 @@ color: #757575;
   background-color: var(--accent-color);
   border: none;
 }
-.modal-check:checked + .modal-check-text  svg {
+.modal-check:checked + .modal-check-text .modal-check-icon {
 fill: #ffffff;
 display: block;
 
